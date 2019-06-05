@@ -17,10 +17,10 @@ h3 {
     margin-left: 10px;
 }
 
-.main-img {
-    width: 98%;
+.shadow{
+    width: 97%;
     height: auto;
-    box-shadow: 5px 1px 5px rgb(105, 105, 105);
+    box-shadow:  5px 1px 5px rgb(105, 105, 105);
     margin-bottom: 20px;
     margin-left: 10px;
 }
