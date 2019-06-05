@@ -1,8 +1,9 @@
-nav {
-    height: 40%;
-    background-color: #DCDCDC;
+.header{
+    background-color: #000;
+    color: #fff;
+    height: 150px;
+    padding-top: 20px;
 }
-
 .nav-img {
     width: 100px;
     height: 100px;
@@ -12,8 +13,8 @@ nav {
 }
 
 h3 {
+    padding-top: 30px;
     margin-left: 10px;
-    margin-top: 30px;
 }
 
 .main-img {
@@ -35,14 +36,6 @@ h3 {
     margin-left: 10px;
     margin-right: 90px;
 }
-
-aside {
-    font-size: small;
-    width: 100%;
-    height: 30%;
-    background-color: #DCDCDC;
-}
-
 .aside-img {
     width: 50px;
     height: 50px;
@@ -51,28 +44,27 @@ aside {
     margin: 5px;
 }
 
-aside span {
-    margin-right: 120px;
+.padding-top {
+	padding-top: 25px;
+	background-color: #f7f7f7;
+}
+
+.inline li{
+    display: inline-block;
+    margin-left: 30px;
+    list-style-type: none;
 }
 
 .btn {
     float: right;
     margin-left: 20px;
 }
-
-footer.container-fluid {
-    text-align: center;
-    color: white;
-    background-color: darkgrey;
-}
-
 a.hreftopnav {
     color: #D2691E;
 }
 
 a.hreftopnav:hover {
     color: #D2691E;
-    ;
     text-decoration: none;
 }
 
@@ -93,4 +85,10 @@ ol p {
 a p {
     color: #D2691E;
     ;
+}
+
+.footer {
+	margin-top: 20px;
+	background-color: #000;
+	color: #fff;
 }
