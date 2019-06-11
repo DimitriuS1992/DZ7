@@ -1,4 +1,4 @@
-.header{
+header{
     background-color: #000;
     color: #fff;
     height: 150px;
@@ -12,11 +12,6 @@
     margin-bottom: 20px;
 }
 
-h3 {
-    padding-top: 30px;
-    margin-left: 10px;
-}
-
 .shadow{
     width: 97%;
     height: auto;
@@ -25,17 +20,6 @@ h3 {
     margin-left: 10px;
 }
 
-.main-textblock {
-    border: 1px solid black;
-    width: 80%;
-    height: auto;
-    border: none;
-}
-
-.main-text {
-    margin-left: 10px;
-    margin-right: 90px;
-}
 .aside-img {
     width: 50px;
     height: 50px;
@@ -44,9 +28,9 @@ h3 {
     margin: 5px;
 }
 
-.padding-top {
-	padding-top: 25px;
-	background-color: #f7f7f7;
+.padding-top-color{
+   background-color: #f7f7f7; 
+    
 }
 
 .inline li{
@@ -55,10 +39,6 @@ h3 {
     list-style-type: none;
 }
 
-.btn {
-    float: right;
-    margin-left: 20px;
-}
 a.hreftopnav {
     color: #D2691E;
 }
@@ -87,7 +67,7 @@ a p {
     ;
 }
 
-.footer {
+footer {
 	margin-top: 20px;
 	background-color: #000;
 	color: #fff;
